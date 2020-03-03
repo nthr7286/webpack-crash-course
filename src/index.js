@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import { nijou, NAME } from './utilities'
 import Lion from './utilities'
+import './styles.css'
 
 console.log(Lion.say())
 
@@ -15,3 +16,4 @@ const component = () => {
 }
 
 document.body.appendChild(component())
+document.body.classList.add('bg')
